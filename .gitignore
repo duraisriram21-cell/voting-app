@@ -1,0 +1,40 @@
+cat > .gitignore << 'EOF'
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.log
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Java / builds
+target/
+build/
+dist/
+*.class
+
+# Docker
+*.tar
+
+# Terraform
+.terraform/
+terraform.tfstate*
+crash.log
+
+# Others
+*.iml
+*.coverage
+.pytest_cache/
+.ipynb_checkpoints/
+EOF
